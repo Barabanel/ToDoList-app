@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	padding: 0 10px;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	background: #faf47c;
+	border-radius: 5px;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
+	min-height: 100vh;
+	max-width: 600px;
+	margin: 10px auto;
+	padding: 15px;
+}
+
+.add-form {
+	margin-bottom: 10px;
+}
+
+#newTodo {
+	width: calc(100% - 115px);
+	padding: 7px;
+	margin: 0 0 5px 0;
+	border-radius: 5px;
+}
+
+#newTodo:focus {
+	outline: 0;
+}
+
+#addItem, #sortByName {
+	background-color: #138ae8;
+	padding: 7px 10px;
+	color: white;
+	border: 2px solid #005b84;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#addItem:focus {
+	outline: 0;
+}
+
+#todoList {
+	margin: 0;
+	padding: 0;
+}
+
+#todoList li {
+	padding: 12px 0;
+	border-bottom: 1px solid #0684bd;
+
+}
+
+#todoList li i {
+	float: right;
+	color: red;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.done {
+	text-decoration: line-through;
+	opacity: 0.5 ;
+}
+
+.editText {
+	display: none;
+	width: calc(100% - 71px);
+}
